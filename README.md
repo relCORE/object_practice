@@ -1,5 +1,9 @@
 #Object Activity
 
+Remember to...
+* Fork this repo
+* Clone your forked repo on the command line
+
 ## Code Instructions
 Pick your favorite team (sports or otherwise) and create an [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) with 10 properties and a function that pretty prints the values (prints them in a human readable form, example below).
 
