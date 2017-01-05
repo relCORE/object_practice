@@ -20,4 +20,3 @@ For your README.md, please include the following headings with the following con
  * Reason why you chose to model this team as an object.
 * Output
  * Example of the output produced by your application.
-
