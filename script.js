@@ -4,10 +4,12 @@ var evilGeniuses = new TeamStats("Evil Geniuses", "North America", "10", "5", "2
 //Method for the TeamStats object that prints out the stats in a human readable format
 TeamStats.prototype.printStats = function(){
   console.log(this.teamName + " is a professional DotA 2 Team from " + this.teamOrigin + ".");
-  console.log("During the Internationl 2016 they achieved " + this.wins + " wins, and suffered " + this.fails + " losses.");
+  console.log("During the International 2016 they achieved " + this.wins + " wins, and suffered " + this.fails + " losses.");
   console.log("In the end they placed " + this.place + " in the tournament.");
   console.log("The team consists of " + this.player1 + ", "+ this.player2 + ", "+ this.player3 + ", "+ this.player4 + ", and" + this.player5);
 }
+
+
 evilGeniuses.printStats();
 
 
@@ -33,6 +35,7 @@ function TeamStats(teamName, teamOrigin, wins, losses, place, player1, player2, 
 }
 
 //Method for the TeamStats object that prints out the stats in a human readable format
+//Commeted out as it does not appear to work from here, moving the SAME code to the top ran successfully.
 // TeamStats.prototype.printStats = function(){
 //   console.log(this.teamName + " is a professional DotA 2 Team from " + this.teamOrigin + ".");
 //   console.log("During the Internationl 2016 they achieved " + this.wins + " wins, and suffered " + this.fails + " losses.");
